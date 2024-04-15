@@ -1,0 +1,81 @@
+.border {
+    /* border: 2px solid red; */
+    margin: 3px
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.item-center {
+    align-items: center;
+}
+
+.bg-black {
+    background: linear-gradient(to bottom, #0c2937 0%, #0d3041 50%, #0c2938 100%), linear-gradient(to bottom, rgb(12 39 52) 50%, rgb(10 29 39) 61%, rgb(8 10 13) 73%), linear-gradient(33deg, rgb(7 10 14) 0%, rgb(8 14 19) 100%);
+    background-blend-mode: normal, color-burn;
+    color: white;
+}
+
+.invert {
+    filter: invert(1)
+}
+
+.bg-grey {
+    background-image: linear-gradient(to right, #060d0d 0%, #146487 0%, #070608 100%);
+
+}
+
+.rounded {
+    border-radius: 7px;
+}
+
+.m-1 {
+    margin: 5px;
+}
+
+.p-1 {
+    padding: 10px;
+}
+
+/* WebKit (Chrome, Safari, etc.) */
+::-webkit-scrollbar {
+    width: 12px;
+    /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background: #333;
+    /* Track color */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #555;
+    /* Thumb color */
+    border-radius: 6px;
+    /* Roundness of the thumb */
+}
+
+/* Firefox */
+/* Note: Firefox doesn't support styling scrollbar directly, but you can use scrollbar-color and scrollbar-width */
+/* The following code is for Firefox 64 and above */
+/* For older versions, you might need to use -moz-scrollbar-color and -moz-scrollbar-width */
+/* You can adjust these properties to fit your design */
+
+html {
+    scrollbar-color: #a5a5a5 #b1b1b1;
+    /* Thumb and track color */
+    scrollbar-width: thin;
+    /* Width of the scrollbar */
+}
+
+/* For Firefox on Mac */
+/* You might need to adjust these styles for better compatibility */
+* {
+    scrollbar-color: #a1a1a1 #acacac;
+    scrollbar-width: thin;
+}
